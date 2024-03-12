@@ -33,37 +33,37 @@
                 <a href="#">IOAT</a>
             </div>
             <div class="sidebar" style="z-index: 100;">
-                <div class="item" id="active">
+                <div class="item">
                     <a href="./index.html">
                         <i class='bx bx-home-alt-2'></i>
                         <p href="#home">Overview</p>
                     </a>
                 </div>
-                <div class="item">
+                <div class="item"id="active">
                     <a href="#DevicesGet">
-                        <i class='bx bx-cog'></i>
-                        <p href="temperatureGet">devices</p>
+                        <i class='bx bxs-devices'></i>
+                        <p href="#DevicesGet">Devices</p>
                     </a>
                 </div>
-                <div href="#temperatureGet" class="item">
+                <!-- <div href="#temperatureGet" class="item">
                     <a href="#temperatureGet">
                         <i class='bx bx-grid-alt'></i>
                         <p href="#temperatureGet">Temperature</p>
                     </a>
-                </div>
+                </div> -->
                 <div class="item">
-                    <a href="#PhGet">
-                        <i class='bx bx-folder'></i>
-                        <p href="#">PH values</p>
+                    <a href="#phGet">
+                        <i class="bx bx-book-alt"></i>
+                        <p href="#">ph values</p>
                     </a>
                 </div>
                 <div class="item">
                     <a href="#SoilGet">
-                        <i class='bx bx-message-square-dots'></i>
+                        <i class="bi bi-tree-fill"></i>
                         <p href="#">Soil Moisture</p>
                     </a>
                 </div>
-
+                
             </div>
 
             <div class="pic" style="margin-top: 100px;">
@@ -138,7 +138,7 @@
                 <div class="item">
                     <div class="progress">
                         <div class="info">
-                            <h5>PH Values</h5>
+                            <h5>ph Values</h5>
                             <p>Water-Purification </p>
                         </div>
                         <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
@@ -174,86 +174,12 @@
                 </div>
             </div>
             <!-- ##################################### -->
-            <!-- PH -->
-            <div class="separator" id="PhGet">
-                <div class="info">
-                    <h3>PH</h3>
-                    <a href="#">View All</a>
-                </div>
-                <input type="date" value="2023-10-15">
-            </div>
-            <div class="planning">
-                <div class="item">
-                    <div class="left">
-                        <div class="icon">
-                            <!-- <i class="bx bx-book-alt"> -->
-                            <i class="bx bx-book-alt" style="padding: 10px;"></i>
-                        </div>
-                        <div class="data-item">
-                            <h2>PH</h2>
-                            <p class="value" id="temperature">22 &#8451;</p>
-                        </div>
-                    </div>
-                    <!-- <i class='bx bx-dots-vertical-rounded'></i> -->
-
-                </div>
-                <div class="item">
-                    <div class="left">
-                        <label for="disk_d"><i class="bx bx-book-alt" style="padding: 10px;"></i>PH
-                            %</label>
-
-                        <meter id="disk_d" value="0.9">60%</meter>
-                        <br>
-                        <label for="disk_c"><i class="bx bx-book-alt" style="padding: 10px;"></i><br>PH Value</label>
-                        <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
-
-                    </div>
-                    <!-- <i class='bx bx-dots-vertical-rounded'></i> -->
-                </div>
-            </div>
-            <div class="separator" id="SoilGet">
-                <div class="info">
-                    <h3>Soil Moisture</h3>
-                    <a href="#">View All</a>
-                </div>
-                <input type="date" value="2023-10-15">
-            </div>
-            <div class="planning">
-                <div class="item">
-                    <div class="left">
-                        <div class="icon">
-                            <!-- <i class="bx bx-book-alt"> -->
-                            <i class="bx bx-book-alt" style="padding: 10px;"></i>
-                        </div>
-                        <div class="data-item">
-                            <h2>Soil Moisture</h2>
-                            <p class="value" id="temperature">22 &#8451;</p>
-                        </div>
-                    </div>
-                    <!-- <i class='bx bx-dots-vertical-rounded'></i> -->
-
-                </div>
-                <div class="item">
-                    <div class="left">
-                        <label for="disk_d"><i class="bi bi-droplet-half" style="padding: 10px;"></i>SoilMoisture
-                            %</label>
-
-                        <meter id="disk_d" value="0.9">60%</meter>
-                        <br>
-                        <label for="disk_c"><i class="bi bi-droplet-half" style="padding: 10px;"></i><br>SoilMoisture
-                            Value</label>
-                        <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
-
-                    </div>
-                    <!-- <i class='bx bx-dots-vertical-rounded'></i> -->
-                </div>
-            </div>
             <div class="separator" id="DevicesGet">
                 <div class="info">
                     <h3>Devices </h3>
                     <a href="#">View All</a>
                 </div>
-                <input type="date" value="2023-10-15">
+                <input type="date" value="2024-03-12">
             </div>
             <div class="planning">
                 <div class="item" style="display: flex;justify-content: space-between;">
@@ -352,36 +278,73 @@
                 </div>
 
             </div>
-            <div class="separator" id="temperatureGet">
+            <!-- ph -->
+            <div class="separator" id="phGet">
                 <div class="info">
-                    <h3>Temperature</h3>
+                    <h3>ph</h3>
                     <a href="#">View All</a>
                 </div>
-                <input type="date" value="2023-10-15">
+                <input type="date" value="2024-03-12">
             </div>
-            <!-- temperature -->
             <div class="planning">
                 <div class="item">
                     <div class="left">
                         <div class="icon">
-                            <i class="bi bi-droplet-half"></i>
-                            <!-- <i class="bi bi-thermometer-sun"></i> -->
+                            <!-- <i class="bx bx-book-alt"> -->
+                            <i class="bx bx-book-alt" style="padding: 10px;"></i>
                         </div>
                         <div class="data-item">
-                            <h2>Humidity</h2>
-                            <p class="value" id="Humiid">22 &#8451;</p>
+                            <h2>ph</h2>
+                            <p class="value" id="temperature">8 </p>
                         </div>
                     </div>
+                    <!-- <i class='bx bx-dots-vertical-rounded'></i> -->
 
                 </div>
                 <div class="item">
                     <div class="left">
-                        <label for="disk_d"><i class="bi bi-droplet-half" style="padding: 10px;"></i>Humidity
+                        <label for="disk_d"><i class="bx bx-book-alt" style="padding: 10px;"></i>ph
                             %</label>
 
                         <meter id="disk_d" value="0.9">60%</meter>
                         <br>
-                        <label for="disk_c"><i class="bi bi-droplet-half" style="padding: 10px;"></i>Humidity
+                        <label for="disk_c"><i class="bx bx-book-alt" style="padding: 10px;"></i><br>ph Value</label>
+                        <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+
+                    </div>
+                    <!-- <i class='bx bx-dots-vertical-rounded'></i> -->
+                </div>
+            </div>
+            <div class="separator" id="SoilGet">
+                <div class="info">
+                    <h3>Soil Moisture</h3>
+                    <a href="#">View All</a>
+                </div>
+                <input type="date" value="2024-03-12">
+            </div>
+            <div class="planning">
+                <div class="item">
+                    <div class="left">
+                        <div class="icon">
+                            <!-- <i class="bx bx-book-alt"> -->
+                            <i class="bx bx-book-alt" style="padding: 10px;"></i>
+                        </div>
+                        <div class="data-item">
+                            <h2>Soil Moisture</h2>
+                            <p class="value" id="temperature">80%</p>
+                        </div>
+                    </div>
+                    <!-- <i class='bx bx-dots-vertical-rounded'></i> -->
+
+                </div>
+                <div class="item">
+                    <div class="left">
+                        <label for="disk_d"><i class="bi bi-droplet-half" style="padding: 10px;"></i>SoilMoisture
+                            %</label>
+
+                        <meter id="disk_d" value="0.9">60%</meter>
+                        <br>
+                        <label for="disk_c"><i class="bi bi-droplet-half" style="padding: 10px;"></i><br>SoilMoisture
                             Value</label>
                         <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
 
@@ -389,6 +352,7 @@
                     <!-- <i class='bx bx-dots-vertical-rounded'></i> -->
                 </div>
             </div>
+            
             
 
         </main>
@@ -408,29 +372,27 @@
                     <i class='bx bxs-chevron-right'></i>
                 </div>
             </div>
-            <div class="separator" id="first">
-                <h4>Wheather Forcast</h4>
-            </div>
+            
 
             <div class="stats">
                 <div class="item">
                     <div class="top">
-                        <p>Courses</p>
-                        <p>Completed</p>
+                        <p>Efficiency of the </p>
+                        <p>Sensor</p>
                     </div>
                     <div class="bottom">
                         <div class="line"></div>
-                        <h3>02</h3>
+                        <h3>80%</h3>
                     </div>
                 </div>
                 <div class="item">
                     <div class="top">
-                        <p>Total Points</p>
-                        <p>Gained</p>
+                        <p>Total Output of the </p>
+                        <p>Sensor</p>
                     </div>
                     <div class="bottom">
                         <div class="line"></div>
-                        <h3>250</h3>
+                        <h3>95%</h3>
                     </div>
                 </div>
 
@@ -447,6 +409,10 @@
                 </div>
                 <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
                 </div>
+            </div>
+            <br>
+            <div class="separator" id="first">
+                <h4>Wheather Forcast</h4>
             </div>
             <br>
             <div class="wrapper">
