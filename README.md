@@ -5,7 +5,7 @@ In the groundbreaking project "Real-Time Agriculture Monitoring Using IoT Techno
 Here we have project screenshot :
 
 ![screenshot1](desktop1.png)
-<!-- ![screenshot2](desktop2.png) -->
+![screenshot2](desktop2.png)
 
 ### Mobile Screenshot
 ![screenshot2](Phone.png)
