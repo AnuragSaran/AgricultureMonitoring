@@ -1,10 +1,11 @@
 # Responsive Dashboard Design #01
-In this tutorial ([Open in Youtube](https://youtu.be/KMWZB-MD8LQ)),  I'm going to show you how to use modern HTML, CSS, and JavaScript to create a completely responsive dashboard with mobile menu functionality. We'll be using CSS Grid, CSS Flexbox, Media queries for our responsive design, and CSS  transitions for some cool animation effects. This dashboard design is responsive in all devices!
+In the groundbreaking project "Real-Time Agriculture Monitoring Using IoT Technology and Web Application," we have harnessed the power of the Internet of Things (IoT) to revolutionize how farmers and agriculturists manage crops and resources. By deploying sensors across fields, we collect data on soil moisture, temperature, pH levels, and more, which is then analyzed and made accessible through a user-friendly web interface. This enables farmers to make informed decisions, optimize resource use, and enhance crop yields, ensuring sustainable farming practices and a future where technology and agriculture grow hand in hand.
 
 # Screenshot
 Here we have project screenshot :
 
-![screenshot1](screenshot-1.png)
+![screenshot1](desktop1.png)
+![screenshot2](desktop2.png)
 
 ### Mobile Screenshot
-![screenshot2](screenshot-2.png)
+![screenshot2](Phone.png)
